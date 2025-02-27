@@ -149,8 +149,8 @@ interface IRepository<T>
     void Update(string id, string name);
     void Delete(string id);
     T GetById(string id);
-    void Show(T item);
     void GetAll();
+    void Show(T item);
 }
 
 class Base
